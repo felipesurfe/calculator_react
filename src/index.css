@@ -21,6 +21,7 @@ body {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  padding: 16px;
 }
 
 .calculator {
@@ -44,5 +45,41 @@ body {
 .display span {
   font-size: 14px;
   color: #888;
-  
+
+}
+
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 16px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.operators {
+  display: flex;
+}
+
+.operators button {
+  flex: 1 1 0%;
+  background-color: var(--primary);
+  font-weight: 700;
+}
+
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.digits button {
+  flex: 1 1 33.333%;
+  max-width: 33.333%;
+  background-color: var(--dark);
 }
