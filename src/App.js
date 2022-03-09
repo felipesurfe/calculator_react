@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <div class="calculator">
-        <div class="dysplay">
+        <div class="display">
           <span>(0)</span> 0
         </div>
         
